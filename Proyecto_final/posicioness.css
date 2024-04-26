@@ -1,0 +1,72 @@
+.caja1
+{
+	position: absolute;
+	top: 630px;
+	left: 10px;
+}
+.section
+{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+.caja2
+{
+	position: absolute;
+	top: 700px;
+	left: 10px;
+}
+.caja3
+{
+	position: absolute;
+	top: 780px;
+	left: 10px;
+}
+.caja4
+{
+	position: absolute;
+	top: 870px;
+	left: 10px;
+}
+.caja5
+{
+	position: absolute;
+	top: 750px;
+	left: 150px;
+}
+.caja6
+{
+	position: absolute;
+	top: 830px;
+	left: 150px;
+}
+.caja7
+{
+	position: absolute;
+	top: 900px;
+	left: 150px;
+}
+.caja8
+{
+	position: absolute;
+	top: 980px;
+	left: 150px;
+}
+.caja9
+{
+	position: absolute;
+	top: 1060px;
+	left: 150px;
+}
+.caja10
+{
+	position: absolute;
+	top: 950px;
+	left: 10px;
+}
+.contenedor
+{
+	position: absolute;
+	top: 980px;
+	left: 80px;
+}

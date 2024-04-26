@@ -1,0 +1,150 @@
+body{
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	justify-self: center;
+	align-items: center;
+	background-color: #262626;
+}
+.cabecera
+{
+	background-color: #2D4C6E;
+	text-align: center;
+	padding: 20px 0;
+	color: white;
+}
+.slider{
+	width: 800px;
+	height: 500px;
+	border-radius: 50px;
+	overflow: hidden;	
+}
+.slide{
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+.slide input{
+	display: none;
+}
+.st{
+	width: 20%;
+	transition: 2s;
+}
+.st img{
+	width: 800px;
+	height: 500px;
+}
+.nav-m{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+.m-btn{
+	border: 2px solid #262626;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+.m-btn:not(:last-child){
+	margin-right: 30px;	
+}
+.m-btn:hover{
+	background-color: #262626;
+}
+#radio1:checked ~.first{
+	margin-left: 0;
+}
+#radio2:checked ~.first{
+	margin-left: -20%;
+}
+#radio3:checked ~.first{
+	margin-left: -40%;
+}
+.nav-auto{
+	position: absolute;
+	width: 800px;
+	margin-top: 460px;
+	display: flex;
+	justify-content: center;
+}
+.nav-auto div{
+	border: 2px solid #262626;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+.nav-auto div:not(:last-child){
+	margin-right: 30px;
+	justify-content: center;
+}
+#radio1:checked ~ .nav-auto .a-b1{
+	background-color: #262626;
+}
+#radio2:checked ~ .nav-auto .a-b2{
+	background-color: #262626;
+}
+#radio3:checked ~ .nav-auto .a-b3{
+	background-color: #262626;
+}
+.caja1
+{
+	font-family: cursive;
+	color: white;
+	align-items: center;
+}
+.caja2
+{
+	font-family: cursive;
+	color: white;
+	align-items: center;
+}
+.caja3
+{
+	font-family: cursive;
+	color: white;
+	align-items: center;
+}
+.caja4
+{
+	font-family: cursive;
+	color: white;
+	align-items: center;
+}
+.caja5
+{
+	font-family: sans-serif;
+	color: white;
+}
+.caja10
+{
+	font-family: cursive;
+	color: white;
+}
+.contenedor{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.contenedor figure{
+	position: relative;
+	height: 300px;
+	cursor: pointer;
+	width: 350px;
+	overflow: hidden;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px;
+}
+.contenedor figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 400ms ease-out;
+}
+.contenedor figure:hover img{
+	transform: scale(1.3);
+}
